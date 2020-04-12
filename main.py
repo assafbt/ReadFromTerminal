@@ -1,5 +1,15 @@
-import getopt
-import sys
+import getopt, sys
+
+def task_vowels(strSentence):
+    vowels = {'a', 'e', 'i', 'o', 'u', 'y'}
+    countVowels = 0
+    strSentence = strSentence.casefold()
+    for letter in strSentence:
+        for vowl in vowels:
+            if (letter == vowl):
+                countVowels += 1
+                continue
+    return countVowels
 
 
 def main(argv):
@@ -10,12 +20,10 @@ def main(argv):
         opts, args = getopt.getopt(argv, "ht:a:", ["task=", "arg="])
     except getopt.GetoptError:
         print('except: main.py --task= <action> --arg= <arguments>')
-        # print('except !')
         sys.exit()
     for opt, arg in opts:
         if opt == '-h':
             print('help: main.py --task= <action> --arg= <arguments>')
-            # print('help ')
             sys.exit()
         elif opt in ("--task", "--task="):
             strTask = arg
@@ -26,7 +34,7 @@ def main(argv):
     print('Args = ' + strArgs)
     result = 0
     if (strTask == "vowels"):
-         result = 'Task = ' + strTask + ' Args = ' + strArgs
+         result = task_vowels(strArgs)
     elif (strTask == "perfect"):
         result = 'Task = ' + strTask + ' Args = ' + strArgs
     elif (strTask == "lazy"):
