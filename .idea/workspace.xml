@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e0b709-1339-4286-bc32-b17d016f3613" name="Default Changelist" comment="adding tast_perfect_power function">
+    <list default="true" id="82e0b709-1339-4286-bc32-b17d016f3613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -69,27 +69,35 @@
       <option name="project" value="LOCAL" />
       <updated>1586720482069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding tast_perfect_power function">
+      <created>1586721255527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721255527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="reading args from terminal" />
     <MESSAGE value="adding task_vowels function" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding task_vowels function" />
+    <MESSAGE value="adding tast_perfect_power function" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tast_perfect_power function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="120" key="CommitChangelistDialog2" timestamp="1586720783841">
+    <state x="614" y="120" key="CommitChangelistDialog2" timestamp="1586721254706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586720783841" />
+    <state x="614" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586721254706" />
     <state x="813" y="418" key="Github.ShareDialog" timestamp="1586719769073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="813" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586719769073" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1586720225606">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1586721257534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586720225606" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586721257534" />
   </component>
 </project>
