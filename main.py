@@ -12,6 +12,22 @@ def task_vowels(strSentence):
     return countVowels
 
 
+def tast_perfect_power(number):
+    n = int(number)
+    v = set()
+    v.add(1)
+
+    for i in range(2, n + 1):
+        if (i * i <= n):
+            j = i * i
+            v.add(j)
+            while (j * i <= n):
+                v.add(j * i)
+                j = j * i
+    perfectPower = len(v)
+    return perfectPower
+
+
 def main(argv):
     strArgs = ""
     strTask = ""
@@ -19,7 +35,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, "ht:a:", ["task=", "arg="])
     except getopt.GetoptError:
-        print('except: main.py --task= <action> --arg= <arguments>')
+        print('wrong input')
         sys.exit()
     for opt, arg in opts:
         if opt == '-h':
@@ -36,7 +52,7 @@ def main(argv):
     if (strTask == "vowels"):
          result = task_vowels(strArgs)
     elif (strTask == "perfect"):
-        result = 'Task = ' + strTask + ' Args = ' + strArgs
+        result = tast_perfect_power(strArgs)
     elif (strTask == "lazy"):
         result = 'Task = ' + strTask + ' Args = ' + strArgs
 
